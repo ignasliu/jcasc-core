@@ -1,7 +1,7 @@
 FROM jenkins/jenkins:2.249.2
 COPY plugins_extra.txt /usr/share/jenkins/ref/plugins_extra.txt
 
-LABEL maintainer="ewelina.wilkosz@eficode.com"
+LABEL maintainer="ignas.liudavicius@gmail.com"
 
 ENV JENKINS_HOME /var/jenkins_home
 
