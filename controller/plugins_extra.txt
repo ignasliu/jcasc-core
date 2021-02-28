@@ -19,3 +19,4 @@ scm-api:latest
 script-security:latest
 ssh-credentials:latest
 swarm:latest
+blueocean:latest
