@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:2.249.2
 COPY plugins_extra.txt /usr/share/jenkins/ref/plugins_extra.txt
-
+COPY /casc_configs /var/jenkins_conf
 LABEL maintainer="ignas.liudavicius@gmail.com"
 
 ENV JENKINS_HOME /var/jenkins_home
